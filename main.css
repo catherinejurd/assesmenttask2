@@ -1,0 +1,70 @@
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6e3; /* sandy background */
+    }
+
+    .navbar/* for the navigation bar */ {
+      background-color: #87ceeb; /* sky blue */
+      display: flex;
+      justify-content: center;/* makes it in the center */
+      padding: 12px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar a /* also for the bar  */ {
+      color: #fff;
+      background-color: #f4a460; /* sandy orange */
+      margin: 0 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover /* when you hover over the bar */ {
+      background-color: #ffa07a; /* coral */
+    }
+
+  img{/* for the image */
+    width: 29%;
+    margin-left: 0;
+    margin: 20px;
+  }
+h1{
+  text-align: center;
+}
+button img {
+  width: 49%;
+  max-width: 600px; 
+  height: auto;
+}
+
+.image-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 0px;
+    }
+
+    .image-button {
+      text-align: center;
+    }
+
+    .image-button img {
+      width: 200px; 
+      cursor: pointer;
+    }
+
+    .image-button p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    p{
+     font-size: medium;
+    }
+    span{
+      color: coral;
+    }
